@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PES NEXT | Innovation & Incubation Centre</title>
+    <meta name="description"
+        content="PES NEXT Innovation and Incubation Centre - Empowering Entrepreneurs in Mandya with World-Class Resources, Mentorship, and Funding.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Animation Canvas -->
+    <canvas id="hero-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-actions" style="display: flex; align-items: center; gap: 15px;">
+                <a href="#">
+                    <img src="pes.png" alt="Custom Logo" style="height:60px; width:auto;">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#startups">Startups</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions brand" aria-label="PES brand">
+                <a href="#" class="brand-link" aria-label="PES logo link">
+                    <img src="logo.png" alt="PES Logo" class="brand-logo">
+                </a>
+                <div class="brand-text">PES College of Engineering</div>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Background Slider -->
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('img1.jpg');">
+            </div>
+            <div class="slide" style="background-image: url('img8.jpg');">
+            </div>
+            <div class="slide" style="background-image: url('img11.jpg');">
+            </div>
+
+            <div class="slider-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">Fueling the <span class="gradient-text">Next Generation</span> of Entrepreneurs</h1>
+            <p class="hero-subtitle">Your Idea, Our Launchpad. Transform your vision into reality with PES NEXT.</p>
+            <div class="hero-buttons">
+                <a href="#programs" class="btn-secondary">Explore Programs</a>
+                <a href="#apply" class="btn-primary">Apply Now</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-orb"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Who We Are</span>
+                <h2>Where Innovation Meets <span class="gradient-text">Execution</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>PES NEXT is more than just an incubator; it's a launchpad for the future. Located in the heart of
+                        Mandya and backed by the People's Education Trust, we provide the critical infrastructure,
+                        mentorship, and funding support needed to turn bold ideas into successful ventures.</p>
+                    <div class="highlight-box">
+                        <span class="icon">🏆</span>
+                        <p>Ministry of MSME approved Business Incubator</p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3 class="counter" data-target="50">0</h3>
+                        <p>Startups Incubated</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="counter" data-target="10">0</h3>
+                        <p>Crore Funding</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="counter" data-target="100">0</h3>
+                        <p>Mentors</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Incubation Programs (Timeline) -->
+    <section id="programs" class="section programs-section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">The Journey</span>
+                <h2>From Idea to <span class="gradient-text">Enterprise</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Pre-Incubation</h3>
+                        <p>Ideation, validation, and prototype development support for early-stage innovators.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Incubation</h3>
+                        <p>Product development, market access, and mentorship for MVP stage startups.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Acceleration</h3>
+                        <p>Scaling support, investor connections, and growth hacking for established ventures.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section id="facilities" class="section facilities-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Resources</span>
+                <h2>World-Class <span class="gradient-text">Infrastructure</span></h2>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-card glass-card">
+                    <div class="icon-box">🔬</div>
+                    <h3>Modern Labs</h3>
+                    <p>State-of-the-art IoT, AI/ML, and Robotics labs.</p>
+                </div>
+                <div class="facility-card glass-card">
+                    <div class="icon-box">🤝</div>
+                    <h3>Mentoring Network</h3>
+                    <p>Access to industry experts and successful founders.</p>
+                </div>
+                <div class="facility-card glass-card">
+                    <div class="icon-box">💰</div>
+                    <h3>Funding Support</h3>
+                    <p>Seed funding and connections to angel investors.</p>
+                </div>
+                <div class="facility-card glass-card">
+                    <div class="icon-box">⚖️</div>
+                    <h3>Legal & IP Aid</h3>
+                    <p>Support for patent filing and company registration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">Showcase</span>
+                <h2>Innovation in <span class="gradient-text">Action</span></h2>
+            </div>
+        </div>
+        <div class="gallery-marquee">
+            <div class="marquee-content">
+                <!-- Duplicate images for seamless loop -->
+                <div class="gallery-item"><img src="img2.jpg" alt="Gallery 1"></div>
+                <div class="gallery-item"><img src="img3.jpg" alt="Gallery 2"></div>
+                <div class="gallery-item"><img src="img4.jpg" alt="Gallery 3"></div>
+                <div class="gallery-item"><img src="img5.jpg" alt="Gallery 4"></div>
+                <div class="gallery-item"><img src="img6.jpg" alt="Gallery 5"></div>
+                <!-- Duplicate set -->
+                <div class="gallery-item"><img src="img7.jpg" alt="Gallery 1"></div>
+                <div class="gallery-item"><img src="img8.jpg" alt="Gallery 2"></div>
+                <div class="gallery-item"><img src="img9.jpg" alt="Gallery 3"></div>
+                <div class="gallery-item"><img src="img10.jpg" alt="Gallery 4"></div>
+                <div class="gallery-item"><img src="img12.jpg" alt="Gallery 5"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Startups Section -->
+    <section id="startups" class="section startups-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2>Our Success <span class="gradient-text">Stories</span></h2>
+            </div>
+            <div class="startups-grid">
+                <!-- Startup Card 1 -->
+                <div class="startup-card glass-card">
+                    <div class="startup-logo">
+                        <span class="placeholder-logo">🚀</span>
+                    </div>
+                    <div class="startup-info">
+                        <h3>AgriTech Solutions</h3>
+                        <span class="startup-sector">Agriculture & IoT</span>
+                        <p>Smart irrigation systems for optimizing water usage in Mandya's sugarcane fields.</p>
+                        <div class="startup-meta">
+                            <span><strong>Founder:</strong> Rajesh K.</span>
+                            <span><strong>Stage:</strong> Seed Funded</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Startup Card 2 -->
+                <div class="startup-card glass-card">
+                    <div class="startup-logo">
+                        <span class="placeholder-logo">⚡</span>
+                    </div>
+                    <div class="startup-info">
+                        <h3>GreenEnergy</h3>
+                        <span class="startup-sector">Clean Tech</span>
+                        <p>Affordable solar-powered cold storage units for local farmers.</p>
+                        <div class="startup-meta">
+                            <span><strong>Founder:</strong> Priya M.</span>
+                            <span><strong>Stage:</strong> Prototype</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Startup Card 3 -->
+                <div class="startup-card glass-card">
+                    <div class="startup-logo">
+                        <span class="placeholder-logo">🤖</span>
+                    </div>
+                    <div class="startup-info">
+                        <h3>RoboAssist</h3>
+                        <span class="startup-sector">Robotics</span>
+                        <p>Assistive robotic arms for manufacturing automation.</p>
+                        <div class="startup-meta">
+                            <span><strong>Founder:</strong> Team Alpha</span>
+                            <span><strong>Stage:</strong> Pre-Incubation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header center">
+                <h2>Get In Touch</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="glass-card contact-form-card">
+                    <h3 class="section-title">Send us a Message</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label class="sr-only" for="name">Your Name</label>
+                                <input id="name" name="name" type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="email">Your Email</label>
+                                <input id="email" name="email" type="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input id="subject" name="subject" type="text" placeholder="Subject">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="6" placeholder="Your Message"></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <div id="formMessage" class="form-message" aria-live="polite"></div>
+                            <button type="submit" class="form-submit-btn">
+                                <span class="btn-icon">⚡</span>
+                                <span>Send Message</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="contact-side">
+                    <div class="glass-card contact-info-card">
+                        <h3 class="section-title">Contact Information</h3>
+                        <ul class="contact-list">
+                            <li class="info-item">
+                                <span class="info-icon">📍</span>
+                                <div>
+                                    <strong>Address</strong>
+                                    <div>P.E.S. College of Engineering<br>Mandya, Karnataka 571401</div>
+                                </div>
+                            </li>
+
+                            <li class="info-item">
+                                <span class="info-icon">📧</span>
+                                <div>
+                                    <strong>Email</strong>
+                                    <div>iic@pesce.ac.in</div>
+                                </div>
+                            </li>
+
+                            <li class="info-item">
+                                <span class="info-icon">📞</span>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <div>+91 8232 234567</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="glass-card office-hours-card">
+                        <h3 class="section-title">Office Hours</h3>
+                        <div class="hours-grid">
+                            <div class="hours-row"><span>Monday - Friday</span><span>9:00 AM - 5:00 PM</span></div>
+                            <div class="hours-row"><span>Saturday</span><span>9:00 AM - 1:00 PM</span></div>
+                            <div class="hours-row"><span>Sunday</span><span>Closed</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="site-footer" class="footer">
+        <div class="footer-glow"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>PES<span class="highlight">NEXT</span></h2>
+                    <p>Transforming Ideas into Enterprises.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#apply">Apply</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>PES College of Engineering Campus,<br>Mandya, Karnataka 571401</p>
+                    <p>info@pesnext.org</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PES NEXT Foundation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
